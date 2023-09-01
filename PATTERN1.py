@@ -1,19 +1,16 @@
-from turtle import *#it is a python library which is used for drawing
-# pentagon
+
+from turtle import*
+import math
+bgcolor('black')
 pencolor('red')
-speed("slowest")
-fillcolor("purple")
-pensize("10")
-begin_fill()
-forward(100)
-right(72)
-forward(100)
-right(72)
-forward(100)
-right(72)
-forward(100)
-right(72)
-forward(100)
-right(72)
-end_fill()
+pensize(2)
+s= getscreen()
+t=Turtle()
+penup()
+goto(0,0)
+pendown()
+for i in range(4):
+ lt(90)
+ fd(140)
+
 mainloop()
